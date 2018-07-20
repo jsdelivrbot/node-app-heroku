@@ -1,0 +1,7 @@
+{
+  "name": "node-app-heroku",
+  "description": "",
+  "repository": "https://github.com/felipebremer/node-app-heroku.git",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "image": "heroku/nodejs"
+}
