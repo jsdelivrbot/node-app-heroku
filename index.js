@@ -21,7 +21,7 @@ app.get('/', (request, response) => {
 });
 
 //Including the routes module
-const routes = require("./modules/routes/index");
+const routes = require("./modules/routes/");
 routes(app);
 
 app.listen(app.get('port'), () => {

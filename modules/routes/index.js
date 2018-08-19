@@ -1,7 +1,7 @@
-const userRoutes = require("./../models/users/index").route;
-const storeRoutes = require("./../models/stores/index").route;
+const user = require("./../models/user/");
+const store = require("./../models/store/");
 
 module.exports = app => {
-    userRoutes(app);
-    storeRoutes(app);
+    user(app);
+    store(app);
 };
